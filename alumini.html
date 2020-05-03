@@ -4,25 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alumini</title> 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>  
+ 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="alumini.css">  
+<link rel="stylesheet" href="alumini.css"> 
+<link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified JavaScript -->
+ 
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
 
 </head> 
 
 
 <body>
+    
+    <nav class="nav-fixed">
+        <div class="nav-wrapper">
+          <a href="index.html" class="brand-logo">UNSIET</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#modal1" class="modal-trigger">Login</a></li>
+            <li><a href="alumini.html">Alumni</a></li>
+          </ul>
+        </div>
+      </nav>
+    
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#modal1" class="modal-trigger">Login</a></li>
+        <li><a href="alumini.html">Alumni</a></li>
+      </ul>
+
 <br>
-    <p id="text1">Notable Alumini</p>     
+    <p id="text1">Notable Alumni</p>     
 <br> 
 
 
 
-<div class="row">
+<!-- <div class="row">
 <div class="col-lg-3 col-sm-6"> 
 
 <div class="card" style="width: 100%">
@@ -32,14 +58,14 @@
 <h5 class="card-title" style="text-align: center;"> Abhi Sahu </h5> 
 <p>Currently: SDE at Amazon US</p>
 <p>Batch: 2021</p>  
-
 <div class="pos">
+
 <a href=""><i class="fa fa-paperclip"  style="width: 2em;"></i></a>       
 <a href=""><i class="fa fa-linkedin" style="width: 2em;"></i></a>   
 <a href=""><i class="fa fa-envelope" style="width: 2em;"></i></a>    
 <a href=""><i class="fa fa-facebook" style="width: 2em;"></i></a> 
 <a href=""><i class="fa fa-instagram" style="width: 2em;"></i></a> 
-<a href=""><i class="fa fa-twitter" style="width: 2em;"></i></a> 
+<a href=""><i class="fa fa-github" style="width: 2em;"></i></a> 
 
 </div>   
 </div>
@@ -47,280 +73,76 @@
              </div> 
 
 
-<div class="col-lg-3 col-sm-6">
-    <div class="card" style="width: 100%">
-        <img class="card-img-top" src="praveen.jpg" onerror="this.src='avatar1.png';">
-        
-        <div class="card-body">
-        <h5 class="card-title" style="text-align: center;"> Abhi Sahu </h5> 
-        <p>Currently: SDE at Amazon US</p>
-        <p>Batch: 2021</p>  
-        
-        <div class="pos">
-        <a href=""><i class="fa fa-paperclip"  style="width: 2em;"></i></a>       
-        <a href=""><i class="fa fa-linkedin" style="width: 2em;"></i></a>   
-        <a href=""><i class="fa fa-envelope" style="width: 2em;"></i></a>    
-        <a href=""><i class="fa fa-facebook" style="width: 2em;"></i></a> 
-        <a href=""><i class="fa fa-instagram" style="width: 2em;"></i></a> 
-        <a href=""><i class="fa fa-twitter" style="width: 2em;"></i></a> 
-       
-        </div>   
-        </div>
-        </div>    
-      
-</div> 
-
-<div class="col-lg-3 col-sm-6">
-    <div class="card" style="width: 100%">
-        <img class="card-img-top" src="Abhi.jpg" onerror="this.src='avatar1.png';">
-        
-        <div class="card-body">
-        <h5 class="card-title" style="text-align: center;"> Abhi Sahu </h5> 
-        <p>Currently: SDE at Amazon US</p>
-        <p>Batch: 2021</p>  
-        
-        <div class="pos">
-        <a href=""><i class="fa fa-paperclip"  style="width: 2em;"></i></a>       
-        <a href=""><i class="fa fa-linkedin" style="width: 2em;"></i></a>   
-        <a href=""><i class="fa fa-envelope" style="width: 2em;"></i></a>    
-        <a href=""><i class="fa fa-facebook" style="width: 2em;"></i></a> 
-        <a href=""><i class="fa fa-instagram" style="width: 2em;"></i></a> 
-        <a href=""><i class="fa fa-twitter" style="width: 2em;"></i></a> 
-       
-        </div>   
-        </div>
-        </div> 
-</div> 
-
-
-<div class="col-lg-3 col-sm-6">
-    <div class="card" style="width: 100%">
-        <img class="card-img-top" src="praveen.jpg" onerror="this.src='avatar1.png';">
-        
-        <div class="card-body">
-        <h5 class="card-title" style="text-align: center;"> Abhi Sahu </h5> 
-        <p>Currently: SDE at Amazon US</p>
-        <p>Batch: 2021</p>  
-        
-        <div class="pos">
-        <a href=""><i class="fa fa-paperclip"  style="width: 2em;"></i></a>       
-        <a href=""><i class="fa fa-linkedin" style="width: 2em;"></i></a>   
-        <a href=""><i class="fa fa-envelope" style="width: 2em;"></i></a>    
-        <a href=""><i class="fa fa-facebook" style="width: 2em;"></i></a> 
-        <a href=""><i class="fa fa-instagram" style="width: 2em;"></i></a> 
-        <a href=""><i class="fa fa-twitter" style="width: 2em;"></i></a> 
-        
-        </div>   
-        </div>
-        </div>   
-</div> 
-
-
-</div> 
-
-
-<br>
-
-
-
-
-
-
+</div> -->
 
 
 <div class="row">
-    <div class="col-lg-3 col-sm-6"> 
-    
-    <div class="card" style="width: 100%">
-    <img class="card-img-top" src="Abhi.jpg" onerror="this.src='avatar1.png';">
-    
-    <div class="card-body">
-    <h5 class="card-title" style="text-align: center;"> Abhi Sahu </h5> 
-    <p>Currently: SDE at Amazon US</p>
-    <p>Batch: 2021</p>  
-    
-    <div class="pos">
-    <a href=""><i class="fa fa-paperclip"  style="width: 2em;"></i></a>       
-    <a href=""><i class="fa fa-linkedin" style="width: 2em;"></i></a>   
-    <a href=""><i class="fa fa-envelope" style="width: 2em;"></i></a>    
-    <a href=""><i class="fa fa-facebook" style="width: 2em;"></i></a> 
-    <a href=""><i class="fa fa-instagram" style="width: 2em;"></i></a> 
-    <a href=""><i class="fa fa-twitter" style="width: 2em;"></i></a> 
-     
-    </div>   
+    <div class="col l3 m6 s12">
+      <div class="card">
+        <div class="card-image">
+          <img src="Abhi.jpg" onerror="this.src='avatar1.png';">
+          <span class="card-title">Abhi Sahu</span>
+        </div>
+        <div class="card-content">
+          <p>Currently: SDE at Amazon US</p>
+<p>Batch: 2021</p>
+        </div>
+        <div class="card-action">
+            <a href=""><i class="fa fa-paperclip"></i></a>       
+            <a href=""><i class="fa fa-linkedin"></i></a>   
+            <a href=""><i class="fa fa-envelope"></i></a>    
+            <a href=""><i class="fa fa-facebook"></i></a> 
+            <a href=""><i class="fa fa-instagram"></i></a> 
+            <a href=""><i class="fa fa-github"></i></a> 
+        </div>
+      </div>
     </div>
-    </div>
-                 </div> 
-    
-    
-    <div class="col-lg-3 col-sm-6">
-        <div class="card" style="width: 100%">
-            <img class="card-img-top" src="praveen.jpg" onerror="this.src='avatar1.png';">
-            
-            <div class="card-body">
-            <h5 class="card-title" style="text-align: center;"> Abhi Sahu </h5> 
-            <p>Currently: SDE at Amazon US</p>
-            <p>Batch: 2021</p>  
-            
-            <div class="pos">
-            <a href=""><i class="fa fa-paperclip"  style="width: 2em;"></i></a>       
-            <a href=""><i class="fa fa-linkedin" style="width: 2em;"></i></a>   
-            <a href=""><i class="fa fa-envelope" style="width: 2em;"></i></a>    
-            <a href=""><i class="fa fa-facebook" style="width: 2em;"></i></a> 
-            <a href=""><i class="fa fa-instagram" style="width: 2em;"></i></a> 
-            <a href=""><i class="fa fa-twitter" style="width: 2em;"></i></a> 
-            
-            </div>   
-            </div>
-            </div>    
-          
-    </div> 
-    
-    <div class="col-lg-3 col-sm-6">
-        <div class="card" style="width: 100%">
-            <img class="card-img-top" src="Abhi.jpg" onerror="this.src='avatar1.png';">
-            
-            <div class="card-body">
-            <h5 class="card-title" style="text-align: center;"> Abhi Sahu </h5> 
-            <p>Currently: SDE at Amazon US</p>
-            <p>Batch: 2021</p>  
-            
-            <div class="pos">
-            <a href=""><i class="fa fa-paperclip"  style="width: 2em;"></i></a>       
-            <a href=""><i class="fa fa-linkedin" style="width: 2em;"></i></a>   
-            <a href=""><i class="fa fa-envelope" style="width: 2em;"></i></a>    
-            <a href=""><i class="fa fa-facebook" style="width: 2em;"></i></a> 
-            <a href=""><i class="fa fa-instagram" style="width: 2em;"></i></a> 
-            <a href=""><i class="fa fa-twitter" style="width: 2em;"></i></a> 
-           
-            </div>   
-            </div>
-            </div> 
-    </div> 
-    
-    
-    <div class="col-lg-3 col-sm-6">
-        <div class="card" style="width: 100%">
-            <img class="card-img-top" src="praveen.jpg" onerror="this.src='avatar1.png';">
-            
-            <div class="card-body">
-            <h5 class="card-title" style="text-align: center;"> Abhi Sahu </h5> 
-            <p>Currently: SDE at Amazon US</p>
-            <p>Batch: 2021</p>  
-            
-            <div class="pos">
-            <a href=""><i class="fa fa-paperclip"  style="width: 2em;"></i></a>       
-            <a href=""><i class="fa fa-linkedin" style="width: 2em;"></i></a>   
-            <a href=""><i class="fa fa-envelope" style="width: 2em;"></i></a>    
-            <a href=""><i class="fa fa-facebook" style="width: 2em;"></i></a> 
-            <a href=""><i class="fa fa-instagram" style="width: 2em;"></i></a> 
-            <a href=""><i class="fa fa-twitter" style="width: 2em;"></i></a> 
-             
-            </div>   
-            </div>
-            </div>   
-    </div> 
- </div> 
-
- <br><br> 
+  </div>
 
 
+ <!-- Login Modal -->
+ <div id="modal1" class="modal">
+    <div class="modal-content">
+      <a href="#" class="modal-close waves-effect waves-red btn-flat right" style="color: red;">x</a>
+      <h1>Login</h1>
+<form action="">
+      <div class="input-field">
+        <i class="material-icons prefix">email</i>
+        <label>Username/Email</label>
+        <input type="email" name="email">
+      </div>
 
-
-
+      <div class="input-field">
+        <i class="material-icons prefix">vpn_key</i>
+        <label>Password</label>
+        <input type="password" name="pwd">
+      </div>
  
-<div class="row">
-    <div class="col-lg-3 col-sm-6"> 
-    
-    <div class="card" style="width: 100%">
-    <img class="card-img-top" src="Abhi.jpg" onerror="this.src='avatar1.png';">
-    
-    <div class="card-body">
-    <h5 class="card-title" style="text-align: center;"> Abhi Sahu </h5> 
-    <p>Currently: SDE at Amazon US</p>
-    <p>Batch: 2021</p>  
-    
-    <div class="pos">
-    <a href=""><i class="fa fa-paperclip"  style="width: 2em;"></i></a>       
-    <a href=""><i class="fa fa-linkedin" style="width: 2em;"></i></a>   
-    <a href=""><i class="fa fa-envelope" style="width: 2em;"></i></a>    
-    <a href=""><i class="fa fa-facebook" style="width: 2em;"></i></a> 
-    <a href=""><i class="fa fa-instagram" style="width: 2em;"></i></a> 
-    <a href=""><i class="fa fa-twitter" style="width: 2em;"></i></a> 
-     
-    </div>   
+      <div class="input-field">
+        <i class="material-icons prefix">class</i>
+        <select id="select1">
+          <option value="">Select Sem</option>
+          <option value="1">I st Sem</option>
+          <option value="2">II nd Sem</option>
+          <option value="3">III rd Sem</option>
+          <option value="4">IV th Sem</option>
+          <option value="5">V th Sem</option>
+          <option value="6">VI th Sem</option>
+          <option value="7">VII th Sem</option>
+          <option value="8">VIII th Sem</option>
+        </select>
+      </div>
+
+<div class="modal-footer">
+<button class="btn right" type="submit">Login</button>
+</div>
+    </form>
+
     </div>
-    </div>
-                 </div> 
-    
-    
-    <div class="col-lg-3 col-sm-6">
-        <div class="card" style="width: 100%">
-            <img class="card-img-top" src="praveen.jpg" onerror="this.src='avatar1.png';">
-            
-            <div class="card-body">
-            <h5 class="card-title" style="text-align: center;"> Abhi Sahu </h5> 
-            <p>Currently: SDE at Amazon US</p>
-            <p>Batch: 2021</p>  
-            
-            <div class="pos">
-            <a href=""><i class="fa fa-paperclip"  style="width: 2em;"></i></a>       
-            <a href=""><i class="fa fa-linkedin" style="width: 2em;"></i></a>   
-            <a href=""><i class="fa fa-envelope" style="width: 2em;"></i></a>    
-            <a href=""><i class="fa fa-facebook" style="width: 2em;"></i></a> 
-            <a href=""><i class="fa fa-instagram" style="width: 2em;"></i></a> 
-            <a href=""><i class="fa fa-twitter" style="width: 2em;"></i></a> 
-             
-            </div>   
-            </div>
-            </div>    
-          
-    </div> 
-    
-    <div class="col-lg-3 col-sm-6">
-        <div class="card" style="width: 100%">
-            <img class="card-img-top" src="Abhi.jpg" onerror="this.src='avatar1.png';">
-            
-            <div class="card-body">
-            <h5 class="card-title" style="text-align: center;"> Abhi Sahu </h5> 
-            <p>Currently: SDE at Amazon US</p>
-            <p>Batch: 2021</p>  
-            
-            <div class="pos">
-            <a href=""><i class="fa fa-paperclip"  style="width: 2em;"></i></a>       
-            <a href=""><i class="fa fa-linkedin" style="width: 2em;"></i></a>   
-            <a href=""><i class="fa fa-envelope" style="width: 2em;"></i></a>    
-            <a href=""><i class="fa fa-facebook" style="width: 2em;"></i></a> 
-            <a href=""><i class="fa fa-instagram" style="width: 2em;"></i></a> 
-            <a href=""><i class="fa fa-twitter" style="width: 2em;"></i></a> 
-            
-            </div>   
-            </div>
-            </div> 
-    </div> 
-    
-    
-    <div class="col-lg-3 col-sm-6">
-        <div class="card" style="width: 100%">
-            <img class="card-img-top" src="praveen.jpg" onerror="this.src='avatar1.png';">
-            
-            <div class="card-body">
-            <h5 class="card-title" style="text-align: center;"> Abhi Sahu </h5> 
-            <p>Currently: SDE at Amazon US</p>
-            <p>Batch: 2021</p>  
-            
-            <div class="pos">
-            <a href=""><i class="fa fa-paperclip"  style="width: 2em;"></i></a>       
-            <a href=""><i class="fa fa-linkedin" style="width: 2em;"></i></a>   
-            <a href=""><i class="fa fa-envelope" style="width: 2em;"></i></a>    
-            <a href=""><i class="fa fa-facebook" style="width: 2em;"></i></a> 
-            <a href=""><i class="fa fa-instagram" style="width: 2em;"></i></a> 
-            <a href=""><i class="fa fa-twitter" style="width: 2em;"></i></a> 
-        
-            </div>   
-            </div>
-            </div>   
-    </div> 
- </div> <br>
+  </div>
+
 </body>
+
+
+<script src="js/loader.js"></script>
 </html>
