@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Compiled and minified CSS -->
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified JavaScript -->
+ 
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eLearning</title>
+   
+</head>
+<body>
+
+  <nav class="nav-fixed">
+    <div class="nav-wrapper">
+      <a href="index.html" class="brand-logo">UNSIET</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="#">About Us</a></li>
+        <li><a href="#modal1" class="modal-trigger">Login</a></li>
+        <li><a href="#">Alumni</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="#">About US</a></li>
+    <li><a href="#modal1" class="modal-trigger">Login</a></li>
+    <li><a href="#">Alumni</a></li>
+  </ul>
+
+
+  
+
+    <div class="row myform1">
+              <div class="col l8 m7 s12">
+                <img class="img1" src="1516166228phpZQEIby.jpeg" width="100%">
+                        </div>
+        <div class="col l4 m5 s12">
+          <h2>Sign up</h2>  
+          <form action="">
+                <div class="row" style="margin-bottom: -1rem;">
+                <span class="input-field col s6">
+                    <i class="material-icons prefix">account_circle</i>
+                    <label style="color: black;">First Name</label>
+                    <input type="text" name="fname">
+                </span>
+                <span class="input-field col s6">
+                    <label style="color: black;">Last Name</label>
+                <input type="text" name="lname">
+                </span>
+        </div>
+
+
+      <div class="input-field">
+        <i class="material-icons prefix">email</i>
+        <label style="color: black;">Valid Email</label>
+        <input type="email" name="email">
+      </div>
+
+      <div class="input-field">
+        <i class="material-icons prefix">phone</i>
+          <label style="color: black;">Phone</label>
+          <input type="number" name="phone">
+      </div>
+      <div class="input-field">
+        <i class="material-icons prefix">vpn_key</i>
+        <label style="color: black;">Password</label>
+        <input type="password" name="pwd">
+      </div>
+
+      <div class="input-field">
+        <i class="material-icons prefix">date_range</i>
+        <label style="color: black;">Birthday</label>
+        <input type="text" name="dob" class="datepicker">
+    </div>
+
+    <div class="file-field input-field">
+        
+          <i class="material-icons prefix">attach_file</i>
+          <input type="file">
+        <label style="color: black;">Upload a file</label>
+          <input class="file-path" type="text" style="width: 90%;">
+      </div>
+
+      <div class="input-field">
+        
+  <button class="btn waves-effect waves-light right" type="submit" name="action">Signup
+    <i class="material-icons right">send</i>
+  </button>
+      </div>
+            </form>
+        </div>
+    </div> 
+
+
+
+    <!-- Login Modal -->
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <a href="#" class="modal-close waves-effect waves-red btn-flat right" style="color: red;">x</a>
+        <h1>Login</h1>
+<form action="">
+        <div class="input-field">
+          <i class="material-icons prefix">email</i>
+          <label>Username/Email</label>
+          <input type="email" name="email">
+        </div>
+
+        <div class="input-field">
+          <i class="material-icons prefix">vpn_key</i>
+          <label>Password</label>
+          <input type="password" name="pwd">
+        </div>
+   
+        <div class="input-field">
+          <i class="material-icons prefix">class</i>
+          <select id="select1">
+            <option value="">Select Sem</option>
+            <option value="1">I st Sem</option>
+            <option value="2">II nd Sem</option>
+            <option value="3">III rd Sem</option>
+            <option value="4">IV th Sem</option>
+            <option value="5">V th Sem</option>
+            <option value="6">VI th Sem</option>
+            <option value="7">VII th Sem</option>
+            <option value="8">VIII th Sem</option>
+          </select>
+        </div>
+
+<div class="modal-footer">
+  <button class="btn right" type="submit">Login</button>
+</div>
+      </form>
+
+      </div>
+    </div>
+
+</body>
+
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<script src="js/loader.js"></script>
+</html>
+
+
+
+
+
+
+<style>
+  .img{
+    width: 100%;
+    opacity: .7;
+  }
+  .myform{ 
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
+}
+</style>
