@@ -7,6 +7,7 @@ $(document).ready(function(){
     $('.collapsible').collapsible();
     $('.pushpin').pushpin();
     $('.parallax').parallax();
+    $('ul.tabs').tabs();
   }); 
 
   function toggleModal(){

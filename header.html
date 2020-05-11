@@ -9,13 +9,13 @@
 <body>
     
     <div class="navbar-fixed">
-        <nav class="nav-fixed">
+        <nav class="nav-fixed teal">
           <div class="nav-wrapper">
-            <a href="index.html" class="brand-logo"> &nbsp; E-UNSIET</a>
+            <a href="index.html" class="brand-logo"> &nbsp; UNSIET Connect</a>
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
               <li><a href="index.html">Home</a></li>
-              <li><a href="#modal1" class="modal-trigger">Login</a></li>
+              <li><a href="#modal1" class="modal-trigger">Register</a></li>
               <li><a href="alumni.html">Alumni</a></li>
             </ul>
           </div>
@@ -24,9 +24,70 @@
       
         <ul class="sidenav" id="mobile-demo">
           <li><a href="index.html">Home</a></li>
-          <li><a href="#modal1" class="modal-trigger">Login</a></li>
+          <li><a href="#modal1" class="modal-trigger">Register</a></li>
           <li><a href="alumni.html">Alumni</a></li>
         </ul>
+
+
+
+
+        <div id="modal1" class="modal">
+          <div class="modal-content">
+            <a href="#" class="modal-close waves-effect waves-red btn-flat right" style="color: red;">x</a>
+            <h1>Register</h1>
+    <form action="">
+      <div class="row" style="margin-bottom: -1rem;">
+        <span class="input-field col s6">
+            <i class="material-icons prefix">account_circle</i>
+            <label>First Name</label>
+            <input type="text" name="fname">
+        </span>
+        <span class="input-field col s6">
+            <label>Last Name</label>
+        <input type="text" name="lname">
+        </span>
+</div>
+      <div class="input-field">
+        <i class="material-icons prefix">email</i>
+        <label>Valid Email</label>
+        <input type="email" name="email">
+      </div>
+
+      <div class="input-field">
+        <i class="material-icons prefix">phone</i>
+          <label>Phone</label>
+          <input type="number" name="phone">
+      </div>
+      <div class="input-field">
+        <i class="material-icons prefix">vpn_key</i>
+        <label>Password</label>
+        <input type="password" name="pwd">
+      </div>
+
+      <div class="input-field">
+        <i class="material-icons prefix">date_range</i>
+        <label>Birthday</label>
+        <input type="text" name="dob" class="datepicker">
+    </div>
+
+    <div class="file-field input-field">
+        
+          <i class="material-icons prefix">attach_file</i>
+          <input type="file">
+        <label>Upload a file</label>
+          <input class="file-path" type="text" style="width: 90%;">
+      </div>
+       
+           
+          </div>
+    
+    <div class="modal-footer">
+      <button class="btn right" type="submit">Register</button>
+    </div>
+          </form>
+    
+          
+        </div>
 
 </body>
 
@@ -39,9 +100,29 @@
 <style>
    @import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500&display=swap');
 
+   @import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&display=swap');
+
+   @import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+
+   @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+   
     nav{
-    background-color: #607d8b;
-    font-family: 'Baloo Tamma 2', cursive;
+    
+    /* font-family: 'Baloo Tamma 2', cursive; */
+ 
+      
+}
+nav ul a{
+  color: white;
+}
+nav .brand-logo{
+  /* font-family: 'Montserrat Subrayada', sans-serif; */
+  /* font-family: 'Modak', cursive; */
+  font-family: 'Acme', sans-serif;
+  color: white;
+  font-size: 2em;
+  font-weight: 00;
+
 }
 .sidenav{
   width: 50%;
