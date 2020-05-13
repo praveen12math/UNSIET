@@ -1,0 +1,1106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="jquery.js"></script>
+       <!-- Compiled and minified CSS -->
+       <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   
+       <!-- Compiled and minified JavaScript -->
+    
+       <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        $(function(){
+            $("#loadHeader").load("header.html");
+        });
+    </script>
+</head>
+<body>
+
+        <div id="loadHeader"></div>
+
+        <h1>(Computer Science & Engineering 7th SEM)</h1>
+
+        <table class="centered striped">
+            <thead style>
+                <tr>
+                    <th>Subject Code</th>
+                    <th>Subject Name</th>
+                    <th>Sessional</th>
+                    <th>Assignments</th>
+                    <th>Exam</th>
+                     <th>Total</th>
+                </tr>
+                               
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td>Open Elective-I</td>
+                    <td>2 x 15</td>
+                    <td>20</td>
+                    <td>100</td>
+                    <td>150</td>
+                </tr>
+                <tr>
+                    <td>ECS-701</td>
+                    <td>Distributed Systems</td>
+                        <td>2 x 15</td>
+                        <td>20</td>
+                        <td>100</td>
+                        <td>150</td>
+                </tr>
+                <tr>
+                    <td>ECS-702</td>
+                    <td>Digital Image
+                        Processing</td>
+                        <td>2 x 15</td>
+                        <td>20</td>
+                        <td>100</td>
+                        <td>150</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>CS-Elective-I</td>
+                    <td>2 x 15</td>
+                    <td>20</td>
+                    <td>100</td>
+                    <td>150</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>CS-Elective-II</td>
+                        <td>2 x 15</td>
+                        <td>20</td>
+                        <td>100</td>
+                        <td>150</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h1>Practicals</h1>
+
+        <table class="centered striped">
+            <thead>
+                <tr>
+                    <th>Subject Code</th>
+                    <th>Subject Name</th>
+                    <th>Lab</th>                    
+                    <th>Exam</th>
+                     <th>Total</th>
+                </tr>
+                
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>ECS-751</td>
+                    <td>Distributed Systems
+                        Lab</td>
+                        <td>25</td>
+                        <td>25</td>
+                        <td>50</td>
+                </tr>
+                <tr>
+                    <td>ECS-752</td>
+                    <td>Digital Image
+                        Processing Lab</td>
+                    <td>25</td>
+                    <td>25</td>
+                    <td>50</td>
+                </tr>
+               
+                <tr>
+                    <td>GP-753</td>
+                    <td>Project</td>
+                    <td>50</td>
+                    <td>-</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td>ECS-754</td>
+                    <td>Industrial Training
+                        Viva-Voce</td>
+                        <td>50</td>
+                        <td>-</td>
+                        <td>50</td>
+                </tr>
+                <tr>
+                    <td>GP-701</td>
+                    <td>General Proficiency</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>50</td>
+                </tr>
+            </tbody>
+        </table>
+        <br><br>
+
+        <p class="p1">DISTRIBUTED SYSTEMS (ECS-701)</p>
+
+        <div class="container">
+        <ul class="collapsible popout">
+            <li>
+              <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT I : Characterization of Distributed Systems, Theoretical Foundation for Distributed System & Concepts in Message Passing Systems</div>
+              <div class="collapsible-body"><span>Characterization of Distributed Systems: Introduction, Examples of distributed Systems, Resource
+                sharing and the Web Challenges. Architectural models, Fundamental Models.
+                <br><br>
+                Theoretical Foundation for Distributed System: Limitation of Distributed system, absence of
+                global clock, shared memory, Logical clocks, Lamport’s & vectors logical clocks.
+                <br><br>
+                Concepts in Message Passing Systems: causal order, total order, total causal order, Techniques
+                for Message Ordering, Causal ordering of messages, global state, termination detection.</span></div>
+            </li>
+
+            <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT II : Distributed Mutual Exclusion & Distributed Deadlock Detection </div>
+                <div class="collapsible-body"><span>Distributed Mutual Exclusion: Classification of distributed mutual exclusion, requirement of
+                    mutual exclusion theorem, Token based and non token based algorithms, performance metric for
+                    distributed mutual exclusion algorithms.
+                <br><br>
+                Distributed Deadlock Detection: system model, resource Vs communication deadlocks, deadlock
+                prevention, avoidance, detection & resolution, centralized dead lock detection, distributed dead lock
+                detection, path pushing algorithms, edge chasing algorithms.
+            </span></div>
+              </li>
+
+              <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT III : Agreement Protocols & Distributed Resource Management</div>
+                <div class="collapsible-body"><span>Agreement Protocols: Introduction, System models, classification of Agreement Problem,
+                    Byzantine agreement problem, Consensus problem, Interactive consistency Problem, Solution to
+                    Byzantine Agreement problem, Application of Agreement problem, Atomic Commit in Distributed
+                    Database system. <br><br>
+                    Distributed Resource Management: Issues in distributed File Systems, Mechanism for building
+                    distributed file systems, Design issues in Distributed Shared Memory, Algorithm for Implementation of Distributed Shared Memory.
+                </span></div>
+              </li>
+
+              <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT IV : Failure Recovery in Distributed Systems & Fault Tolerance</div>
+                <div class="collapsible-body"><span>Failure Recovery in Distributed Systems: Concepts in Backward and Forward recovery, Recovery
+                    in Concurrent systems, Obtaining consistent Checkpoints, Recovery in Distributed Database
+                    Systems.
+                    <br><br>
+                    Fault Tolerance: Issues in Fault Tolerance, Commit Protocols, Voting protocols, Dynamic voting protocols.
+                </span></div>
+              </li>
+
+              <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT V : Transactions and Concurrency Control & Distributed Transactions</div>
+                <div class="collapsible-body"><span>Transactions and Concurrency Control: Transactions, Nested transactions, Locks, Optimistic
+                    Concurrency control, Timestamp ordering, Comparison of methods for concurrency control.
+                    <br><br>
+                    Distributed Transactions: Flat and nested distributed transactions, Atomic Commit protocols,
+Concurrency control in distributed transactions, Distributed deadlocks, Transaction recovery.
+Replication: System model and group communication, Fault - tolerant services, highly available
+services, Transactions with replicated data.
+                </span></div>
+              </li>
+
+           
+          </ul>
+        </div>
+       
+        <p class="p1">DIGITAL IMAGE PROCESSING (ECS-702)</p>
+
+        <div class="container">
+            <ul class="collapsible popout">
+                <li>
+                    <div class="collapsible-header">
+                        <i class="material-icons">arrow_drop_down</i>
+                        UNIT I : Introduction and Fundamentals & Image Enhancement in Frequency Domain
+                    </div>
+                    <div class="collapsible-body">
+                        <span>
+                            Motivation and Perspective, Applications, Components of Image Processing System, Element of Visual Perception, A Simple Image Model, Sampling and Quantization. <br><br>
+                            Fourier Transform and the Frequency Domain, Basis of Filtering in Frequency Domain, Filters – Low-pass, High-pass; Correspondence Between Filtering in Spatial and Frequency Domain; Smoothing Frequency Domain Filters – Gaussian Lowpass Filters; Sharpening  requency Domain Filters – Gaussian Highpass Filters; Homomorphic Filtering.
+                        </span>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="collapsible-header">
+                        <i class="material-icons">arrow_drop_down</i>
+                        UNIT II : Image Enhancement in Spatial Domain
+                    </div>
+                    <div class="collapsible-body">
+                        <span>
+                            Introduction; Basic Gray Level Functions – Piecewise-Linear Transformation Functions: Contrast
+                            Stretching; Histogram Specification; Histogram Equalization; Local Enhancement; Enhancement
+                            using Arithmetic/Logic Operations – Image Subtraction, Image Averaging; Basics of Spatial
+                            Filtering; Smoothing - Mean filter, Ordered Statistic Filter; Sharpening – The Laplacian.
+                        </span>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="collapsible-header">
+                        <i class="material-icons">arrow_drop_down</i>
+                        UNIT III : Image Restoration
+                    </div>
+                    <div class="collapsible-body">
+                        A Model of Restoration Process, Noise Models, Restoration in the presence of Noise only-Spatial Filtering – Mean Filters: Arithmetic Mean filter, Geometric Mean Filter, Order Statistic Filters – Median Filter, Max and Min filters; Periodic Noise Reduction by Frequency Domain Filtering – Bandpass Filters; Minimum Mean-square Error Restoration.
+                    </div>
+                </li>
+
+                <li>
+                    <div class="collapsible-header">
+                        <i class="material-icons">arrow_drop_down</i>
+                        UNIT IV : Morphological Image Processing
+                    </div>
+                    <div class="collapsible-body">
+                        Introduction, Logic Operations involving Binary Images, Dilation and Erosion, Opening and Closing,
+                        Morphological Algorithms – Boundary Extraction, Region Filling, Extraction of Connected
+                        Components, Convex Hull, Thinning, Thickening
+                    </div>
+                </li>
+
+                <li>
+                    <div class="collapsible-header">
+                        <i class="material-icons">arrow_drop_down</i>
+                        UNIT V : Registration & Segmentation
+                    </div>
+                    <div class="collapsible-body">
+                        Introduction, Geometric Transformation – Plane to Plane transformation, Mapping, Stereo Imaging – Algorithms to Establish Correspondence, Algorithms to Recover Depth
+                        <br><br>
+                        Introduction, Region Extraction, Pixel-Based Approach, Multi-level Thresholding, Local Thresholding, Region-based Approach, Edge and Line Detection: Edge Detection, Edge Operators, Pattern Fitting Approach, Edge Linking and Edge Following, Edge Elements Extraction by Thresholding, Edge Detector Performance, Line Detection, Corner Detection.
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+
+<br>
+        <hr>
+
+        <div class="p1">
+            <b>CS Elective-I</b>
+        </div>
+
+
+        <p class="p1">COMPUTATIONAL GEOMETRY (ECS-071)</p>
+
+        <div class="container">
+        <ul class="collapsible popout">
+            <li>
+              <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT I : Convex hulls & Triangulations</div>
+              <div class="collapsible-body"><span>Convex hulls: construction in 2d and 3d, lower bounds
+                <br>Triangulations: polygon triangulations, representations, point-set triangulations, planar graphs
+                </span></div>
+            </li>
+
+            <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT II : Voronoi diagrams & Delayney triangulations</div>
+                <div class="collapsible-body"><span>Voronoi diagrams: construction and applicat ions, variants
+                    <br>
+                    Delayney triangulations: divide-andconquer, flip and incremental algorithms, duality of Voronoi diagrams, min-max angle properties
+            </span></div>
+              </li>
+
+              <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT III : Geometric searching & Visibility</div>
+                <div class="collapsible-body"><span>Geometric searching: point-location, fractional cascading, linear programming with prune and
+                    search, finger trees, concatenable queues, segment trees, interval trees
+                    <br>
+                    Visibility: algorithms for weak and strong visibility, visibility with reflections, art-gallery problems
+                </span></div>
+              </li>
+
+              <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT IV : Arrangements of lines & Combinatorial geometry</div>
+                <div class="collapsible-body"><span>Arrangements of lines: arrangements of hyper planes, zone theorems, many-faces complexity
+                    and algorithms
+                    <br>
+                    Combinatorial geometry: Ham-sandwich cuts.
+                </span></div>
+              </li>
+
+              <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT V : Sweep techniques & Randomization in computational geometry</div>
+                <div class="collapsible-body"><span>Sweep techniques: plane sweep for segment intersections, Fortune's sweep for Voronoi diagrams, topological sweep for line arrangements
+                    <br>
+                    Randomization in computational geometry: algorithms, techniques for counting; Robust geometric computing, Applications of computational geometry
+                </span></div>
+              </li>
+          </ul>
+        </div>
+
+
+        <p class="p1">COMPUTATIONAL COMPLEXITY (ECS-072)</p>
+
+        <div class="container">
+        <ul class="collapsible popout">
+            <li>
+              <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT I</div>
+              <div class="collapsible-body"><span>Models of Computation, resources (time and space), algorithms, computability, complexity.
+                </span></div>
+            </li>
+
+            <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT II</div>
+                <div class="collapsible-body"><span>Complexity classes, P/NP/PSPACE, reduction s, hardness, completeness, hierarchy, relationships between complexity classes.
+            </span></div>
+              </li>
+
+              <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT III</div>
+                <div class="collapsible-body"><span>Randomized computation and complexity; Logical characterizations, incompleteness; Approximability.
+                </span></div>
+              </li>
+
+              <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT IV</div>
+                <div class="collapsible-body"><span>Circuit complexity, lower bounds; Parallel computation and complexity; Counting problems; Interactive proofs
+                </span></div>
+              </li>
+
+              <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT V</div>
+                <div class="collapsible-body"><span>Probabilistically checkable proofs; Communication complexity; Quantum computation
+                </span></div>
+              </li>
+          </ul>
+        </div>
+
+
+        <p class="p1">PARALLEL ALGORITHMS (ECS-073)</p>
+
+        <div class="container">
+        <ul class="collapsible popout">
+            <li>
+              <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT I</div>
+              <div class="collapsible-body"><span>Sequential model, need of alternative model, parallel computational models such as PRAM, LMCC, Hypercube, Cube Connected Cycle, Butterfly, Perfect Shuffle Computers, Tree model, Pyramid model, Fully Connected model, PRAM-CREW, EREW models, simulation of one
+                model from another one.
+                </span></div>
+            </li>
+
+            <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT II</div>
+                <div class="collapsible-body"><span>Performance Measures of Parallel Algorithms, speed-up and efficiency of PA, Cost- optimality, An example of illustrate Cost- optimal algorithms- such as summation, Min/Max on various
+                    models.
+            </span></div>
+              </li>
+
+              <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT III</div>
+                <div class="collapsible-body"><span>Parallel Sorting Networks, Parallel Merging Algorithms on CREW/EREW/MCC, Parallel Sorting Networks on CREW/EREW/MCC/, linear array
+                </span></div>
+              </li>
+
+              <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT IV</div>
+                <div class="collapsible-body"><span>Parallel Searching Algorithm, Kth element, Kth element in X+Y on PRAM, Parallel Matrix Transportation and Multiplication Algorithm on PRAM, MCC, Vector-Matrix Multiplication, Solution of Linear Equation, Root finding.
+                </span></div>
+              </li>
+
+              <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT V</div>
+                <div class="collapsible-body"><span>Graph Algorithms - Connected Graphs, search and traversal, Combinatorial Algorithms- Permutation, Combinations, Derrangements.
+                </span></div>
+              </li>
+          </ul>
+        </div>
+
+
+
+        <p class="p1">Pattern Recognition (ECS-074)</p>
+
+        <div class="container">
+        <ul class="collapsible popout">
+            <li>
+              <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT I : Introduction</div>
+              <div class="collapsible-body"><span>Basics of pattern recognition, Design principles of pattern recognition system, Learning and adaptation, Pattern recognition approaches, Mathematical foundations – Linear algebra, Probability Theory, Expectation, mean and covariance, Normal distribution, multivariate
+                normal densities, Chi squared test.
+                </span></div>
+            </li>
+
+            <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT II : Statistical Patten Recognition</div>
+                <div class="collapsible-body"><span>Bayesian Decision Theory, Classifiers, Normal density and discriminant functions.
+            </span></div>
+              </li>
+
+              <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT III : Parameter estimation methods</div>
+                <div class="collapsible-body"><span>Maximum-Likelihood estimation, Bayesian Parameter estimation, Dimension reduction methods - Principal Component Analysis (PCA), Fisher Linear discriminant analysis, Expectation-maximization (EM), Hidden Markov Models (HMM), Gaussian mixture models.
+                </span></div>
+              </li>
+
+              <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT IV : Nonparametric Techniques</div>
+                <div class="collapsible-body"><span>Density Estimation, Parzen Windows, K-Nearest Neighbor Estimation, Nearest Neighbor Rule, Fuzzy classification.
+                </span></div>
+              </li>
+
+              <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT V : Unsupervised Learning & Clustering</div>
+                <div class="collapsible-body"><span>Criterion functions for clustering, Clustering Techniques: Iterative square - error partitional clustering – K means, agglomerative hierarchical clustering, Cluster validation.
+                </span></div>
+              </li>
+          </ul>
+        </div>
+
+        <br>
+        <div class="p1">
+            <b>CS Elective-II</b>
+        </div>
+
+        <p class="p1">Data Mining & Data Warehousing (ECS-075)</p>
+
+        <div class="container">
+        <ul class="collapsible popout">
+            <li>
+              <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT I : Introduction</div>
+              <div class="collapsible-body"><span>Overview, Motivation(for Data Mining),Data Mining-Definition & Functionalities, Data Processing, Form of Data Preprocessing, Data Cleaning: Missing Values, Noisy Data,(Binning, Clustering, Regression, Computer and Human inspection),Inconsistent Data, Data Integration and Transformation. Data Reduction:-Data Cube Aggregation, Dimensionality reduction, Data Compression, Numerosity Reduction, Clustering, Discretization and Concept hierarchy generation
+                </span></div>
+            </li>
+
+            <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT II : Concept Description</div>
+                <div class="collapsible-body"><span>Definition, Data Generalization, Analytical Characterization, Analysis of attribute relevance, Mining Class comparisions, Statistical measures in large Databases. Measuring Central Tendency, Measuring Dispersion of Data, Graph Displays of Basic Statistical class Description, Mining Association Rules in Large Databases, Association rule mining, mining Single-Dimensional Boolean Association rules from Transactional Databases– Apriori Algorithm, Mining Multilevel Association rules from Transaction Databases and Mining Multi- Dimensional Association rules from Relational Databases
+            </span></div>
+              </li>
+
+              <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT III : Classification and Predictions & Cluster Analysis</div>
+                <div class="collapsible-body"><span>Classification and Predictions: <br>
+                    What is Classification & Prediction, Issues regarding Classification and prediction, Decision tree, Bayesian Classification, Classification by Back propagation, Multilayer feed-forward Neural Network, Back propagation Algorithm, Classification methods K-nearest neighbor classifiers, Genetic Algorithm. <br>
+                    Cluster Analysis: <br> 
+                    Data types in cluster analysis, Categories of clustering methods, Partitioning methods. Hierarchical Clustering- CURE and Chameleon, Density Based Methods-DBSCAN, OPTICS, Grid Based Methods- STING, CLIQUE, Model Based Method –Statistical Approach, Neural Network approach, Outlier Analysis
+                </span></div>
+              </li>
+
+              <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT IV : Data Warehousing</div>
+                <div class="collapsible-body"><span>Overview, Definition, Delivery Process, Difference between Database System and Data Warehouse, Multi Dimensional Data Model, Data Cubes, Stars, Snow Flakes, Fact Constellations, Concept hierarchy, Process Architecture, 3 Tier Architecture, Data Marting.
+                </span></div>
+              </li>
+
+              <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT V : </div>
+                <div class="collapsible-body"><span>Aggregation, Historical information, Query Facility, OLAP function and Tools. OLAP Servers, ROLAP, MOLAP, HOLAP, Data Mining interface, Security, Backup and Recovery, Tuning Data Warehouse, Testing Data Warehouse.
+                </span></div>
+              </li>
+          </ul>
+        </div>
+
+        <p class="p1">Distributed Database (ECS-076)</p>
+
+        <div class="container">
+        <ul class="collapsible popout">
+            <li>
+              <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT I</div>
+              <div class="collapsible-body">
+              <span>
+                Transaction and schedules, Concurrent Execution of transaction, Conflict and View
+                Serializability, Testing for Serializability, Concepts in Recoverable and Cascadeless schedules.
+                </span>
+                </div>
+            </li>
+
+            <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT II</div>
+                <div class="collapsible-body">
+                    <span>
+                        Lock based protocols, time stamp based protocols, Multiple Granularity and Multiversion
+                        Techniques, Enforcing serializablity by Locks, Locking system with multiple lock modes,
+                        architecture for Locking scheduler
+            </span></div>
+              </li>
+
+              <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT III</div>
+                <div class="collapsible-body">
+                    <span>
+                        Distributed Transactions Management, Data Distribution, Fragmentation and Replication
+                        Techniques, Distributed Commit, Distributed Locking schemes, Long duration transactions,
+                        Moss Concurrency protocol.
+                </span></div>
+              </li>
+
+              <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT IV</div>
+                <div class="collapsible-body">
+                    <span>
+                        Issues of Recovery and atomicity in Distributed Databases, Traditional recovery techniques, Log
+                        based recovery, Recovery with Concurrent Transactions, Recovery in Message passing systems,
+                        Checkpoints, Algorithms for recovery line, Concepts in Orphan and Inconsistent Messages.
+                </span></div>
+              </li>
+
+              <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT V</div>
+                <div class="collapsible-body">
+                    <span>
+                        Distributed Query Processing, Multiway Joins, Semi joins, Cost based query optimization for
+                        distributed database, Updating replicated data, protocols for Distributed Deadlock Detection,
+                        Eager and Lazy Replication Techniques
+                </span></div>
+              </li>
+          </ul>
+        </div>
+
+        <p class="p1">Data Compression (ECS-077)</p>
+
+        <div class="container">
+        <ul class="collapsible popout">
+            <li>
+              <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT I : Compression Techniques</div>
+              <div class="collapsible-body">
+              <span>
+                Compression Techniques: Loss less compression, Lossy Compression, Measures of prefonnance,
+                Modeling and coding, Mathematical Preliminaries for Lossless compression: A brief
+                introduction to information theory, Models: Physical models,
+                Probability models, Markov models, composite source model, Coding: uniquely decodable
+                codes, Prefix codes.
+                </span>
+                </div>
+            </li>
+
+            <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT II : The Huffman coding algorithm</div>
+                <div class="collapsible-body">
+                    <span>
+                        The Huffman coding algorithm: Minimum variance Huffman codes, Adaptive Huffman coding:
+                        Update procedure, Encoding procedure, Decoding procedure. Golomb codes, Rice codes,
+                        Tunstall codes, Applications of Hoffman coding: Loss less image compression, Text
+                        compression, Audio Compression.
+            </span></div>
+              </li>
+
+              <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT III : Coding sequence</div>
+                <div class="collapsible-body">
+                    <span>
+                        Coding a sequence, Generating a binary code, Comparison of Binary and Huffman cding,
+                        Applications: Bi-level image compression-The JBIG standard, JBIG2, Image compression.
+                        Dictionary Techniques: Introduction, Static Dictionary: Diagram Coding, Adaptive Dictionary.
+                        The LZ77 Approach, The LZ78 Approach, Applications: File Compression-UNIX compress,
+                        Image Compression: The Graphics Interchange Format (GIF), Compression over Modems: V.42
+                        bits, Predictive Coding: Prediction with Partial match (ppm): The basic algorithm, The ESCAPE
+                        SYMBOL, length of context, The Exclusion Principle, The Burrows-Wheeler Transform: Moveto-
+                        front coding, CALIC, JPEG-LS, Multi-resolution Approaches, Facsimile Encoding, Dynamic
+                        Markoy Compression.
+                </span></div>
+              </li>
+
+              <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT IV : Distortion criteria</div>
+                <div class="collapsible-body">
+                    <span>
+                        Distortion criteria, Models, Scalar Ouantization: The Quantization problem, Uniform Quantizer,
+                        Adaptive Quantization, Non uniform Quantization.
+                </span></div>
+              </li>
+
+              <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT V : Advantages of Vector</div>
+                <div class="collapsible-body">
+                    <span>
+                        Advantages of Vector Quantization over Scalar Quantization, The Linde-Buzo-Gray Algorithm,
+                        Tree structured Vector Quantizers. Structured Vector Quantizers.
+                </span></div>
+              </li>
+          </ul>
+        </div>
+
+
+        <p class="p1">Bioinformatics (EIT-073)</p>
+
+        <div class="container">
+        <ul class="collapsible popout">
+            <li>
+              <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT I</div>
+              <div class="collapsible-body">
+              <span>
+                Bioinformatics objectives and overviews, Interdisciplinary nature of Bioinformatics, Data integration, Data analysis, Major Bioinformatics databases and tools. Metadata: Summary & reference systems, finding new type of data online. <br>
+                Molecular Biology and Bioinformatics: Systems approach in biology, Central dogma of molecular biology, problems in molecular approach and the bioinformatics approach, oerview of
+                the bioinformatics applications.
+                </span>
+                </div>
+            </li>
+
+            <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT II</div>
+                <div class="collapsible-body">
+                    <span>
+                        Basic chemistry of nucleic acids, Structure of DNA, Structure of RNA, DNA Replication, -Transcription, -Translation, Genes- the functional elements in DNA, Analyzing DNA,DNA sequencing.  <br> Proteins: Amino acids, Protein structure, Secondary,
+                        Tertiary and Quaternary structure, Protein folding and function, Nucleic acid-Protein interaction.
+            </span></div>
+              </li>
+
+              <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT III</div>
+                <div class="collapsible-body">
+                    <span>
+                        Perl Basics, Perl applications for bioinformatics- Bioperl, Linux Operating System, mounting/unmounting files, tar, gzip / gunzip, telnet, ftp, developing applications on Linux OS,
+                        Understanding and Using Biological Databases, Overview of Java, CORBA, XML, Web deployment concepts.
+                </span></div>
+              </li>
+
+              <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT IV</div>
+                <div class="collapsible-body">
+                    <span>
+                        Genome, Genomic sequencing, expressed sequence tags, gene expression, transcription factor binding sites and single nucleotide polymorphism. Computational representations
+                        of molecular biological data storage techniques: databases (flat, relational and object oriented), and controlled vocabularies, general data retrieval techniques: indices, Boolean search, fuzzy search and neighboring, application to biological data warehouses.
+                </span></div>
+              </li>
+
+              <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT V</div>
+                <div class="collapsible-body">
+                    <span>
+                        Macromolecular structures, chemical compounds, generic variability and its connection to clinical data. Representation of patterns and relationships: sequence alignment algorithms, regular expressions, hierarchies and graphical models, Phylogenetics. BLAST.
+                </span></div>
+              </li>
+          </ul>
+        </div>
+
+
+        <p class="p1">IT in Forensic Science (EIT-074)</p>
+
+        <div class="container">
+        <ul class="collapsible popout">
+            <li>
+              <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT I</div>
+              <div class="collapsible-body">
+              <span>
+                Overview of Biometrics, Biometric Identification, Biometric Verification, Biometric Enrollment,
+                Biometric System Security. <br><br>
+                Authentication and Biometrics: Secure Authentication Protocols, Access Control Security
+                Services, Matching Biometric Samples, Verification by humans. <br><br>
+                Common biometrics: Finger Print Recognition, Face Recognition, Speaker Recognition, Iris
+                Recognition, Hand Geometry, Signature Verification
+                </span>
+                </div>
+            </li>
+
+            <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT II</div>
+                <div class="collapsible-body">
+                    <span>
+                        Introduction to Information Hiding: Technical Steganography, Linguistic Steganography,
+                        Copy Right Enforcement, Wisdom from Cryptography <br><br>
+                        Principles of Steganography: Framework for Secret Communication, Security of
+                        Steganography System, Information Hiding in Noisy Data , Adaptive versus non-Adaptive
+                        Algorithms, Active and Malicious Attackers, Information hiding in Written Text.
+            </span></div>
+              </li>
+
+              <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT III</div>
+                <div class="collapsible-body">
+                    <span>
+                        A Survey of Steganographic Techniques: Substitution systems and Bit Plane Tools, Transform
+                        Domain Techniques: - Spread Spectrum and Information hiding, Statistical Steganography,
+                        Distortion Techniques, Cover Generation Techniques. <br><br>
+                        Steganalysis: Looking for Signatures: - Extracting hidden Information, Disabling Hidden
+                        Information.
+                </span></div>
+              </li>
+
+              <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT IV</div>
+                <div class="collapsible-body">
+                    <span>
+                        Watermarking and Copyright Protection: Basic Watermarking, Watermarking Applications,
+                        Requirements and Algorithmic Design Issues, Evaluation and Benchmarking of Watermarking
+                        system. <br><br>
+                        Transform Methods: Fourier Transformation, Fast Fourier Transformation, Discrete Cosine
+                        Transformation, Mellin-Fourier Transformation, Wavelets, Split Images in Perceptual Bands.
+                        Applications of Transformation in Steganography.
+                </span></div>
+              </li>
+
+              <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT V</div>
+                <div class="collapsible-body">
+                    <span>
+                        Computer Forensics, Rules of evidence, Evidence dynamics, Evidence collection, Data recovery,
+                        Preservation of digital evidence, surveillance tools for future warfare.
+                </span></div>
+              </li>
+          </ul>
+        </div>
+
+        <br> <hr>
+
+        <div class="p1"><b>Open Elective-I</b></div>
+
+        <p class="p1">ENTREPRENEURSHIP DEVELOPMENT (EOE-071)</p>
+
+        <div class="container">
+        <ul class="collapsible popout">
+            <li>
+              <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT I : Entrepreneurship</div>
+              <div class="collapsible-body">
+              <span>
+                Definition. growth of small scale industries in developing countries and their positions vis-a-vis large industries; role of small scale industries in the national economy; characteristics and types of small scale industries; demand based and resources based ancillaries and sub-control types.           <br>
+                Government policy for small scale industry; stages in starting a small scale industry
+                
+                </span>
+                </div>
+            </li>
+
+            <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT II : Project Identification</div>
+                <div class="collapsible-body">
+                    <span>
+                        Assessment of viability, formulation, evaluation, financing, field-study and collection of information, preparation of project report, demand analysis, material balance and output methods, benefit cost analysis, discounted cash flow, internal rate of return and net present value methods.                                                                                                                     
+            </span></div>
+              </li>
+
+              <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT III : Accountancy</div>
+                <div class="collapsible-body">
+                    <span>
+                        Preparation of balance sheets and assessment of economic viability, decision making, expected costs, planning and production control, quality control, marketing, industrial relations, sales and purchases, advertisement, wages and incentive, inventory control, preparation of financial reports, accounts and stores studies.
+                </span></div>
+              </li>
+
+              <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT IV : Project Planning and control</div>
+                <div class="collapsible-body">
+                    <span>
+                        The financial functions, cost of capital approach in project planning and control. Economic evaluation, risk analysis, capital expenditures, policies and practices in public enterprises. profit planning and programming, planning cash flow, capital expenditure and operations. control of financial flows, control and communication.
+                </span></div>
+              </li>
+
+              <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT V : </div>
+                <div class="collapsible-body">
+                    <span>
+                        Laws concerning entrepreneur viz, partnership laws, business ownership, sales and income taxes and workman compensation act.                                                                <br>         
+                        Role of various national and state agencies which render assistance to small scale industries.
+                        
+                </span></div>
+              </li>
+          </ul>
+        </div>    
+        
+        
+        <p class="p1">Quality Management (EOE-072)</p>
+
+        <div class="container">
+        <ul class="collapsible popout">
+            <li>
+              <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT I : Quality Concepts, Control on Purchased Product & Manufacturing Quality</div>
+              <div class="collapsible-body">
+              <span>
+                Quality Concepts:
+                Evolution of Quality Control, concept change, TQM Modern concept, Quality concept in design, Review of design, Evolution of proto type. <br>
+                Control on Purchased Product: Procurement of various products, evaluation of supplies, capacity verification, Development of sources, procurement procedure. <br>
+                Manufacturing Quality: Methods and techniques for manufacture, inspection and control of product, quality in sales and services, guarantee, analysis of claims.                                                                                         
+                
+                </span>
+                </div>
+            </li>
+
+            <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT II : Quality Management & Human Factor in quality</div>
+                <div class="collapsible-body">
+                    <span>
+                        Quality Management
+                        Organization structure and design, quality function, decentralization, designing and fitting, organization for different type products and company, economics of quality value and contribution, quality cost, optimizing quality cost, seduction program. <br>
+                        Human Factor in quality: Attitude of top management, cooperation of groups, operators attitude, responsibility, causes of apparatus error and corrective methods
+                        
+            </span></div>
+              </li>
+
+              <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT III : Control Charts & Attributes of Control Chart</div>
+                <div class="collapsible-body">
+                    <span>
+                        Control Charts
+                        Theory of control charts, measurement range, construction and analysis of R charts, process capability study, use of control charts. <br>
+                        Attributes of Control Chart: Defects, construction and analysis of charts, improvement by control chart, variable sample size, construction and analysis of C charts.                                                                                             
+                        
+                </span></div>
+              </li>
+
+              <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT IV : </div>
+                <div class="collapsible-body">
+                    <span>
+                        Defects diagnosis and prevention defect study, identification and analysis of defects, correcting measure, factors affecting reliability, MTTF, calculation of reliability, building reliability in the product, evaluation of reliability, interpretation of test results, reliability control, maintainability, zero defects, quality circle.
+                </span></div>
+              </li>
+
+              <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT V : </div>
+                <div class="collapsible-body">
+                    <span>
+                        ISO-9000 and its concept of Quality Management <br>
+                        ISO 9000 series, Taguchi method, JIT in some details. 
+                        
+                </span></div>
+              </li>
+          </ul>
+        </div>
+
+
+        <p class="p1">Operations Research (EOE-073)</p>
+
+        <div class="container">
+        <ul class="collapsible popout">
+            <li>
+              <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT I : Introduction & Linear Programming</div>
+              <div class="collapsible-body">
+              <span>
+                Introduction:  Difinition and scope of operations research (OR), OR model, solving the OR model, art of modelling, phases of OR study. <br>
+                Linear Programming:
+                Two variable Linear Programaming model and Graphical method of solution, Simplex method, Dual Simplex method, special cases of Linear Programming, duality, senstivity analysis.
+                
+                </span>
+                </div>
+            </li>
+
+            <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT II : Transportation Problems & Assignment</div>
+                <div class="collapsible-body">
+                    <span>
+                        Transportation Problems:
+                        Types of transportation problems, mathemataical models , transportation algorithms, <br>
+                        Assignment:
+                        Allocation and assignment problems and models, processing of job through machines.
+                        
+            </span></div>
+              </li>
+
+              <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT III : Network Teachniques & Project Management</div>
+                <div class="collapsible-body">
+                    <span>
+                        Network Teachniques:
+                        Shortest  path  model,  minimum  spanning  Tree Problem,  Max-Flow  problem and  Min-cost problem. <br>
+                        Project Management:
+                        Phases of project management, guidelines for network construction, CPM and PERT.
+                        
+                </span></div>
+              </li>
+
+              <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT IV : Theory of Games & Quality Systems</div>
+                <div class="collapsible-body">
+                    <span>
+                        Theory of Games :
+                        Rectanagular games, Minimax theorem, graphical solution of 2 x n or m x 2 games, game with mixed strategies, reduction to linear programming model.
+                        Quality Systems:
+                        Elements of Queuing model, generalized poisson queing model, single server models.
+                        
+                </span></div>
+              </li>
+
+              <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT V : Inventory Control & Replacement</div>
+                <div class="collapsible-body">
+                    <span>
+                        Inventory Control:
+                        Models of inventory, operation of inventory system, quantity discount.
+                        Replacement:
+                        Replacement models: Equipments that deteriorate with time, equipments that fail with time.
+                        
+                </span></div>
+              </li>
+          </ul>
+        </div>
+
+
+
+        <p class="p1">INTRODUCTION TO BIOTECHNOLOGY (EOE-074)</p>
+
+        <div class="container">
+        <ul class="collapsible popout">
+            <li>
+              <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT I : Introduction, Cell Structure and Function & Cell Division</div>
+              <div class="collapsible-body">
+              <span>
+                Introduction: Concept nature and scope of biotechnology. <br>
+                Cell Structure and Function: Eukaryotic and prokaryotic cells, cell wall, membrane organization,  cell  organelles,  Nucleus,  Mitrochondria,  endoplasmic  reticulum,  chloroplast, viruses and toxins into cells. <br>
+                Cell Division: Mitosis and Meiosis.
+                
+                </span>
+                </div>
+            </li>
+
+            <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT II : Biomolecules & Genes</div>
+                <div class="collapsible-body">
+                    <span>
+                        Biomolecules: A brief account of structure of carbohydrates, Lipids and Proteins. <br>
+                        Genes: Brief idea about Mendel’s laws and chromosomes, nature of genetic materials, DN A and RNA, DNA replication. 
+                        
+            </span></div>
+              </li>
+
+              <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT III : Gene Expression & Genetic Engineering</div>
+                <div class="collapsible-body">
+                    <span>
+                        Gene Expression: Central dogma, genetic code, molecular mechanism on mutations, regulations of gene expression, house keeping genes, differentiation and development mutations and their molecular basic. <br>
+                        Genetic Engineering: Introduction, cloning (vectors and enzymes), DNA and genomic libraries, Transgenics, DNA fingerprinting, genomics
+                        
+                </span></div>
+              </li>
+
+              <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT IV : Applications of Biotechnology</div>
+                <div class="collapsible-body">
+                    <span>
+                        Applications of Biotechnology: Bioprocess and fermentation technology, cell culture, Enzyme technology, biological fuel generation, sewage treatment, environmental biotechnology, biotechnology and medicine, biotechnology in agriculture, food and beverage technology, production of biological invention.  
+                </span></div>
+              </li>
+
+              <li>
+                <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>UNIT V : Safety  and  Ethics</div>
+                <div class="collapsible-body">
+                    <span>
+                        Safety  and  Ethics:  Safety,  social,  moral  and  ethic  considerations,  environmental  ethics, bioethics and stem cell research, safety of new biotechnology foods, agro biodiversity and donor policies.
+                </span></div>
+              </li>
+          </ul>
+        </div>
+
+
+
+        <br><br><hr>
+     
+        <div class="p1"><b>List of CS Elective Subjects</b></div>
+    
+        
+        <div class="row">
+            <div class="col s1"></div>
+           <div class="col s11 p2"><b>CS - Elective-I</b></div> 
+        </div>
+
+        <div class="row">
+            <div class="col s2"></div>
+            <div class="col s10"><b>
+              <li>ECS-071 &nbsp; Computational Geometry</li>
+              <li>ECS-072 &nbsp; Computational Complexity</li>
+              <li>ECS-073 &nbsp; Parallel Algorithms</li>
+              <li>ECS-074 &nbsp; Pattern Recognition</li>
+            </b>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s1"></div>
+           <div class="col s11 p2"><b>CS - Elective-II</b></div> 
+        </div>
+
+        <div class="row">
+            <div class="col s2"></div>
+            <div class="col s10">
+             <b>
+                 <li>ECS-075 &nbsp; Data Mining & Data Warehousing</li>
+                 <li>ECS-076 &nbsp; Distributed Database</li>
+                 <li>ECS-077 &nbsp; Data Compression</li>
+                 <li>EIT-073 &nbsp;&nbsp; Bioinformatics</li>
+                 <li>EIT-074 &nbsp;&nbsp; IT in Forensic Science</li>
+             </b>
+            </div>
+        </div>
+
+        <br>
+        <div class="p1"><b>List of Open Elective Subjects</b></div>
+
+        <div class="row">
+            <div class="col s1"></div>
+            <div class="col s11 p2">
+                <b>Open Elective - I</b>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s2"></div>
+            <div class="col s10">
+                <b>
+                    <li>EOE-071 &nbsp; Entrepreneurship Development</li>
+                    <li>EOE-072 &nbsp; Quality Management</li>
+                    <li>EOE-073 &nbsp; Operations Research</li>
+                    <li>EOE-074 &nbsp; Introduction to Biotechnology</li>
+                </b>
+            </div>
+        </div>
+
+
+        <!-- <div class="row">
+            <div class="col s1"></div>
+            <div class="col s11 p2">
+                <b>Open Elective - II</b>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s2"></div>
+            <div class="col s10">
+                <b>
+                    <li>EOE-081 &nbsp; Non Conventional Energy Resources</li>
+                    <li>EOE-082 &nbsp; Nonlinear Dynamic Systems</li>
+                    <li>EOE-083 &nbsp; Product Development</li>
+                    <li>EOE-084 &nbsp; Automation & Robotics</li>
+                </b>
+            </div>
+        </div> -->
+
+        
+
+
+        
+</body>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<script src="js/loader.js"></script>
+</html>
+
+
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Fondamento&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500&display=swap');
+    /* h1{
+        font-family: 'Acme', sans-serif;
+    } */
+    /* h1{
+        font-family: 'Fondamento', cursive;
+    } */
+    h1{
+        text-align: center;
+        font-family: 'Baloo Tamma 2', cursive;
+        font-size: 2.5em;
+    }
+    .p1{
+        text-align: center;
+        font-size: 2em;
+        font-family: 'Baloo Tamma 2', cursive;   
+    }
+    .p2{
+        font-size: 1.5em;
+        font-family: 'Baloo Tamma 2', cursive;   
+        
+    }
+    table{
+        font-family: 'Baloo Tamma 2', cursive;
+    }
+    .collapsible-header{
+        font-size: 1.2em;
+        font-weight: 600;
+    }
+    .collapsible-body{
+        font-size: 1em;
+        font-weight: 600;
+    }
+
+    @media screen {
+        
+    }
+</style>
