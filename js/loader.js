@@ -4,6 +4,10 @@ $(document).ready(function(){
     $('.modal').modal();
     $('.dropdown-trigger').dropdown();
     $('select').formSelect();
+    $('.collapsible').collapsible();
+    $('.pushpin').pushpin();
+    $('.parallax').parallax();
+    $('ul.tabs').tabs();
   }); 
 
   function toggleModal(){
@@ -12,7 +16,4 @@ $(document).ready(function(){
 
     var instance = M.Dropdown.getInstance($('#dropdown1'));
     instance.open();
-
-    var instance = M.FormSelect.getInstance($('#select1'));
-    instance.getSelectedValues();
   }

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Compiled and minified CSS -->
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified JavaScript -->
+ 
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <link type="text/css" rel="stylesheet" href="css/index.css"> 
+    
+    <script src="jquery.js"></script> 
+    <script> 
+    $(function(){
+      $("#includedContent").load("header.html"); 
+    });
+    </script>     
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eLearning</title>
+   
+</head>
+<body>
+
+<div id="includedContent"></div>
+
+  
+<div class="row">
+              <div class="col l8 m7 s12">
+                <img class="img1" src="img/thor.jpg">
+                        </div>
+        <div class="col l4 m5 s12">
+          <h2 style="text-align: center;">Sign up</h2>  
+          <form action="">
+                <div class="row" style="margin-bottom: -1rem;">
+                <span class="input-field col s6">
+                    <i class="material-icons prefix">account_circle</i>
+                    <label>First Name</label>
+                    <input type="text" name="fname">
+                </span>
+                <span class="input-field col s6">
+                    <label>Last Name</label>
+                <input type="text" name="lname">
+                </span>
+        </div>
+
+
+      <div class="input-field">
+        <i class="material-icons prefix">email</i>
+        <label>Valid Email</label>
+        <input type="email" name="email">
+      </div>
+
+      <div class="input-field">
+        <i class="material-icons prefix">phone</i>
+          <label>Phone</label>
+          <input type="number" name="phone">
+      </div>
+      <div class="input-field">
+        <i class="material-icons prefix">vpn_key</i>
+        <label>Password</label>
+        <input type="password" name="pwd">
+      </div>
+
+      <div class="input-field">
+        <i class="material-icons prefix">date_range</i>
+        <label>Birthday</label>
+        <input type="text" name="dob" class="datepicker">
+    </div>
+
+    <div class="file-field input-field">
+        
+          <i class="material-icons prefix">attach_file</i>
+          <input type="file">
+        <label>Upload a file</label>
+          <input class="file-path" type="text" style="width: 90%;">
+      </div>
+
+      <div class="input-field">
+        
+  <button class="btn waves-effect waves-light" type="submit" name="action" style="margin: auto; position: relative;">Signup
+      </button>
+      </div>
+            </form>
+        </div>
+    </div> 
+
+
+
+    <!-- Login Modal -->
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <a href="#" class="modal-close waves-effect waves-red btn-flat right" style="color: red;">x</a>
+        <h1>Login</h1>
+<form action="">
+        <div class="input-field">
+          <i class="material-icons prefix">email</i>
+          <label>Username/Email</label>
+          <input type="email" name="email" required>
+        </div>
+
+        <div class="input-field">
+          <i class="material-icons prefix">vpn_key</i>
+          <label>Password</label>
+          <input type="password" name="pwd" required>
+        </div>
+   
+        <div class="input-field">
+          <select class="browser-default" required>
+            <option value="" disabled selected>Select Sem</option>
+            <option value="1">I Sem</option>
+            <option value="2">II Sem</option>
+            <option value="3">III Sem</option>
+            <option value="4">IV Sem</option>
+            <option value="5">V Sem</option>
+            <option value="6">VI Sem</option>
+            <option value="7">VII Sem</option>
+            <option value="8">VIII Sem</option>
+          </select>
+        </div>
+      </div>
+
+<div class="modal-footer">
+  <button class="btn right" type="submit">Login</button>
+</div>
+      </form>
+
+      
+    </div>
+
+</body>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<script src="js/loader.js"></script>
+</html>

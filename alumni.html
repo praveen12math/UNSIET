@@ -8,7 +8,7 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
  
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="css/alumini.css"> 
+<link rel="stylesheet" href="css/alumni.css"> 
 <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
@@ -18,40 +18,28 @@
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
+    <script src="jquery.js"></script>
+    <script>
+      $(function(){
+        $("#includeContent").load("header.html");
+      });
+    </script>
+
 
 </head> 
 
 
 <body>
-    
-    <nav class="nav-fixed">
-        <div class="nav-wrapper">
-          <a href="index.html" class="brand-logo">UNSIET</a>
-          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#modal1" class="modal-trigger">Login</a></li>
-            <li><a href="alumini.html">Alumni</a></li>
-          </ul>
-        </div>
-      </nav>
-    
-      <ul class="sidenav" id="mobile-demo">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#modal1" class="modal-trigger">Login</a></li>
-        <li><a href="alumini.html">Alumni</a></li>
-      </ul>
 
+  <div id="includeContent"></div>
 
-    <p id="text1">Notable Alumni</p>     
-
-
+    <p id="text1">Notable Alumni</p>    
 
 <div class="row">
     <div class="col l3 m6 s12">
       <div class="card">
         <div class="card-image">
-          <img src="Abhi.jpg" onerror="this.src='avatar1.png';">
+          <img src="img/Abhi.jpg" onerror="this.src='img/avatar1.png';">
           <span class="card-title">Abhi Sahu</span>
         </div>
         <div class="card-content">
@@ -90,17 +78,16 @@
       </div>
  
       <div class="input-field">
-        <i class="material-icons prefix">class</i>
-        <select id="select1">
+           <select id="select1" class="browser-default">
           <option value="">Select Sem</option>
-          <option value="1">I st Sem</option>
-          <option value="2">II nd Sem</option>
-          <option value="3">III rd Sem</option>
-          <option value="4">IV th Sem</option>
-          <option value="5">V th Sem</option>
-          <option value="6">VI th Sem</option>
-          <option value="7">VII th Sem</option>
-          <option value="8">VIII th Sem</option>
+          <option value="1">I Sem</option>
+          <option value="2">II Sem</option>
+          <option value="3">III Sem</option>
+          <option value="4">IV Sem</option>
+          <option value="5">V Sem</option>
+          <option value="6">VI Sem</option>
+          <option value="7">VII Sem</option>
+          <option value="8">VIII Sem</option>
         </select>
       </div>
 
