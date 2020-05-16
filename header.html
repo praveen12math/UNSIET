@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head> 
-
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
     <title>Document</title>
 
     
@@ -18,10 +19,10 @@
             <ul id="nav-mobile" class="right hide-on-med-and-down">
               <li><a href="index.html">Home</a></li>  
               <li><a href="syllabus.html">Syllabus</a></li>
-              <li><a href="alumni.html">Alumni</a></li>  
-              <li><a href="cods.html">CODS</a></li>
-              <li><a href="#modal1" class="modal-trigger">Register</a></li>
+              <li><a href="alumni.html">Alumni</a></li>                
+              <li><a href="#modal-login" class="modal-trigger">Login</a></li>
               <li><a href="contactus.html">Contact Us</a></li>
+              <li><a href="cods.html">CODS</a></li>
 
             </ul>
           </div>
@@ -30,17 +31,17 @@
       
         <ul class="sidenav" id="mobile-demo">
           <li><a href="index.html">Home</a></li> 
-          <li><a href="alumni.html">Alumni</a></li>  
-          <li><a href="">CODS</a></li>
-          <li><a href="#modal1" class="modal-trigger">Register</a></li>
+          <li><a href="syllabus.html">Syllabus</a></li>
+          <li><a href="alumni.html">Alumni</a></li>            
           <li><a href="contactus.html">Contact Us</a></li>
+          <li><a href="cods.html">CODS</a></li>
 
         </ul>
 
 
 
 
-        <div id="modal1" class="modal">
+        <div id="modal-register" class="modal">
           <div class="modal-content">
             <a href="#" class="modal-close waves-effect waves-red btn-flat right" style="color: red;">x</a>
             <h1>Register</h1>
@@ -98,6 +99,74 @@
           
         </div>
 
+
+
+        <div id="modal-login" class="modal blue-grey darken-1">
+          <div class="modal-content">
+            <a href="#" class="modal-close waves-effect waves-red btn-flat right" style="color: red;">x</a>
+            <h1>Login</h1>
+   
+    
+            <div class="card-title">
+              <div class="card-content">
+                <div id="test4">
+                  <div class="card-content"> 
+                  <form action="">
+                  <input type="text" placeholder="username">
+                  <input type="password" placeholder="password"> 
+                 
+              
+                   <select>
+                     <option value="" disabled selected>Select Sem</option>
+                     <option value="1">I Sem</option>
+                     <option value="2">II Sem</option>
+                     <option value="3">III Sem</option>
+                     <option value="4">IV Sem</option>
+                     <option value="5">V Sem</option>
+                     <option value="6">VI Sem</option>
+                     <option value="7">VII Sem</option>
+                     <option value="8">VIII Sem</option>
+                   </select>
+              
+                  <button type="submit" class="btn teal right">Login</button>
+                  </form>
+                </div></div>
+                <div id="test5">
+                  <div class="card-content"> 
+                  <form action="">
+                  <input type="text" placeholder="username">
+                  <input type="password" placeholder="password">  
+                  <button type="submit" class="btn teal right">Login</button>
+                  </form>
+                </div></div>
+                <div id="test6">
+                  <div class="card-content"> 
+                  <form action="">
+                  <input type="text" placeholder="username">
+                  <input type="password" placeholder="password">  
+                  <button type="submit" class="btn teal right">Login</button>
+                  </form>
+                </div></div>
+              </div>
+            </div><br><br>
+            <div class="card-tabs">
+              <ul class="tabs tabs-fixed-width blue-grey darken-1">
+                <li class="tab"><a class="active" href="#test4" style="color: white;">Student</a></li>
+                <li class="tab"><a href="#test5" style="color: white;">HOD</a></li>
+                <li class="tab"><a href="#test6" style="color: white;">Faculty</a></li>
+              </ul>
+            </div>
+          
+<br>
+            <a href="#modal-register" class="modal-trigger" style="color: black;"> &nbsp; Don't have account? Register</a>
+
+        <a href="#" class="right" style="color: black;">Forgot Password &nbsp; </a>
+
+        </div>
+        
+       
+        </div>
+
 </body>
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
@@ -115,20 +184,12 @@
 
    @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
    
-    nav{
-    
-    /* font-family: 'Baloo Tamma 2', cursive; */
- 
-      
-}
-nav ul a{
-  color: white;
-}
+
 nav .brand-logo{
   /* font-family: 'Montserrat Subrayada', sans-serif; */
   /* font-family: 'Modak', cursive; */
   font-family: 'Acme', sans-serif;
-  color: white;
+  /* color: white; */
   font-size: 1.9em;
   font-weight: 00;
 
@@ -136,4 +197,12 @@ nav .brand-logo{
 .sidenav{
   width: 50%;
 }
+.select-wrapper input.select-dropdown 
+    {
+      color: white;
+    } 
+    input 
+    {
+      color: white;
+    }
 </style>

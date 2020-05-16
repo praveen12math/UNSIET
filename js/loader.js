@@ -12,6 +12,7 @@ $(document).ready(function(){
 
   function toggleModal(){
     var instance = M.Modal.getInstance($('#modal1'));
+    var instance = M.Modal.getInstance($('#modal-login'));
     instance.open();
 
     var instance = M.Dropdown.getInstance($('#dropdown1'));
